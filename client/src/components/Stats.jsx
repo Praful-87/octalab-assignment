@@ -19,10 +19,10 @@ const Stats = ({ num, text }) => {
         </svg>
         <div className="ml-4">
           <p className="text-2xl font-normal">{num}</p>
-          <p className="text-sm font-normal">{text}</p>
+          <p className="text-xs font-normal">{text}</p>
         </div>
       </div>
-      <p className="mt-2 text-end text-xs text-red-400">View</p>
+      <p className="mt-2 text-end text-xs text-red-400 cursor-pointer">View</p>
     </div>
   );
 };

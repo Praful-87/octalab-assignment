@@ -1,10 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&family=Poppins&family=Roboto:wght@500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&family=Poppins&family=Roboto:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: poppins, sans-serif;
+}
+th {
+  padding: 16px 0;
+}
+
+tr {
+  border-bottom: 1px solid rgb(215, 212, 212);
+}
+tbody td {
+  padding: 8px 0;
 }
